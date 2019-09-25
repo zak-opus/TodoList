@@ -1,4 +1,5 @@
 <template>
+  <!-- eslint-disable -->
   <div id="app">
     <img src="./assets/logo.png">
     <div>
@@ -18,6 +19,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import TodoItem from './components/TodoItem'
 
 export default {
@@ -43,5 +45,7 @@ export default {
 }
 </script>
 <style>
-
+#app{
+  text-align:center;
+}
 </style>
